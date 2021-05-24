@@ -1,0 +1,59 @@
+.card-movie {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 500px;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #282c34;
+    border-radius: 10px;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+}
+
+.card-movie:hover {
+    background-color: white;
+    color: black;
+}
+
+.poster-image {
+    background-image: url('https://www.themoviedb.org/t/p/w200/owjSPGHbtgTiC34qvbIAyTViwur.jpg');
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0 0;
+    padding: 150px 100px;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    padding: 8px 0;
+    color: blueviolet;
+  }
+  
+.subTitle {
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    color: coral;
+}
+
+.btn-detail {
+    width: 80%;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-detail span {
+    color: coral;
+}

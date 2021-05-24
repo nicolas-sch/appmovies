@@ -1,0 +1,53 @@
+.navbar {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+    align-items: center;
+    color: white;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+    text-align: center;
+    padding: 5px 15px;
+}
+
+.navbar form input {
+    border-radius: 10px;
+    border: 0;
+    width: 400px;
+    height: 2rem;
+    margin: 0 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.navbar button {
+    background-color: coral;
+    border: none;
+    border-radius: 10px;
+    height: 2rem;
+    width: 100px;
+    margin: 0 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .navbar form input {
+        width: 100px;
+        margin-bottom: 5px;
+    }
+}
+
